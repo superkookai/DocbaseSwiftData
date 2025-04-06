@@ -6,17 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EFFAC0662DA22CDA0010C3A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFAC0602DA22CDA0010C3A4 /* Preview Assets.xcassets */; };
+		EFFAC0672DA22CDA0010C3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFAC0622DA22CDA0010C3A4 /* Assets.xcassets */; };
+		EFFAC0682DA22CDA0010C3A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFAC0632DA22CDA0010C3A4 /* ContentView.swift */; };
+		EFFAC0692DA22CDA0010C3A4 /* DocbaseSwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFAC0642DA22CDA0010C3A4 /* DocbaseSwiftDataApp.swift */; };
+		EFFAC06B2DA22D0A0010C3A4 /* FeedbackReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFAC06A2DA22D0A0010C3A4 /* FeedbackReport.swift */; };
+		EFFAC06F2DA22E9C0010C3A4 /* EditReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFAC06E2DA22E9C0010C3A4 /* EditReportView.swift */; };
+		EFFAC0722DA2368A0010C3A4 /* UTType+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFAC0712DA236640010C3A4 /* UTType+Ext.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EFFAC04F2DA22CD20010C3A4 /* DocbaseSwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocbaseSwiftData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFAC0602DA22CDA0010C3A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFFAC0622DA22CDA0010C3A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFFAC0632DA22CDA0010C3A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFFAC0642DA22CDA0010C3A4 /* DocbaseSwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocbaseSwiftDataApp.swift; sourceTree = "<group>"; };
+		EFFAC06A2DA22D0A0010C3A4 /* FeedbackReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackReport.swift; sourceTree = "<group>"; };
+		EFFAC06E2DA22E9C0010C3A4 /* EditReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReportView.swift; sourceTree = "<group>"; };
+		EFFAC0702DA2354B0010C3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EFFAC0712DA236640010C3A4 /* UTType+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UTType+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EFFAC0512DA22CD20010C3A4 /* DocbaseSwiftData */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DocbaseSwiftData;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EFFAC04C2DA22CD20010C3A4 /* Frameworks */ = {
@@ -32,7 +42,7 @@
 		EFFAC0462DA22CD20010C3A4 = {
 			isa = PBXGroup;
 			children = (
-				EFFAC0512DA22CD20010C3A4 /* DocbaseSwiftData */,
+				EFFAC0652DA22CDA0010C3A4 /* DocbaseSwiftData */,
 				EFFAC0502DA22CD20010C3A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +53,45 @@
 				EFFAC04F2DA22CD20010C3A4 /* DocbaseSwiftData.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EFFAC0612DA22CDA0010C3A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFFAC0602DA22CDA0010C3A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFFAC0652DA22CDA0010C3A4 /* DocbaseSwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				EFFAC0702DA2354B0010C3A4 /* Info.plist */,
+				EFFAC06C2DA22D130010C3A4 /* Model */,
+				EFFAC06D2DA22E860010C3A4 /* View */,
+				EFFAC0642DA22CDA0010C3A4 /* DocbaseSwiftDataApp.swift */,
+				EFFAC0622DA22CDA0010C3A4 /* Assets.xcassets */,
+				EFFAC0612DA22CDA0010C3A4 /* Preview Content */,
+			);
+			path = DocbaseSwiftData;
+			sourceTree = "<group>";
+		};
+		EFFAC06C2DA22D130010C3A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFFAC0712DA236640010C3A4 /* UTType+Ext.swift */,
+				EFFAC06A2DA22D0A0010C3A4 /* FeedbackReport.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFFAC06D2DA22E860010C3A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFFAC0632DA22CDA0010C3A4 /* ContentView.swift */,
+				EFFAC06E2DA22E9C0010C3A4 /* EditReportView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +108,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EFFAC0512DA22CD20010C3A4 /* DocbaseSwiftData */,
 			);
 			name = DocbaseSwiftData;
 			packageProductDependencies = (
@@ -109,6 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFFAC0662DA22CDA0010C3A4 /* Preview Assets.xcassets in Resources */,
+				EFFAC0672DA22CDA0010C3A4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFFAC06F2DA22E9C0010C3A4 /* EditReportView.swift in Sources */,
+				EFFAC0722DA2368A0010C3A4 /* UTType+Ext.swift in Sources */,
+				EFFAC06B2DA22D0A0010C3A4 /* FeedbackReport.swift in Sources */,
+				EFFAC0682DA22CDA0010C3A4 /* ContentView.swift in Sources */,
+				EFFAC0692DA22CDA0010C3A4 /* DocbaseSwiftDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,11 +308,13 @@
 				DEVELOPMENT_TEAM = T9MD4URZFH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DocbaseSwiftData/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,11 +339,13 @@
 				DEVELOPMENT_TEAM = T9MD4URZFH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DocbaseSwiftData/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

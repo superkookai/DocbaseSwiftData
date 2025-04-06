@@ -10,8 +10,10 @@ import SwiftUI
 @main
 struct DocbaseSwiftDataApp: App {
     var body: some Scene {
-        WindowGroup {
+        DocumentGroup(editing: FeedbackReport.self, contentType: .feedbackReport) {
             ContentView()
         }
     }
 }
+
+//Important: You must not use the modelContainer() modifier when working with a SwiftData document-based app.
